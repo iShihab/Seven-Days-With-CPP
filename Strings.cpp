@@ -9,7 +9,10 @@ int main(int argc, char const *argv[])
     cout<<myString1+myString2<<endl;
 
     // String length
-    cout<<myString1.length();
+    cout<<myString1.length()<<endl;
+
+    // Access string
+    cout<<myString2[2];
 
     return 0;
 
