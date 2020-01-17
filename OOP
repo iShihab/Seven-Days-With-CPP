@@ -11,3 +11,7 @@ procedural Programming is very simple and straight forward
 2. Abstraction
 3. Inheritance
 4. Polymorphism
+
+Car---->
+Car--->properties--->make,model,color
+Car---->methods---->start,stop,move
