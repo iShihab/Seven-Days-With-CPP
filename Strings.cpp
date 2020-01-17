@@ -18,6 +18,17 @@ int main(int argc, char const *argv[])
     myString2[0]='B'; //note single quote
     cout<<myString2<<endl;
 
+    // User input string
+    string fullName;
+    cout<<"Type fullname: ";
+    getline(cin,fullName);
+    cout<<"Your full name is : "<<fullName;
+
+
+
+
+
+
     return 0;
 
 
