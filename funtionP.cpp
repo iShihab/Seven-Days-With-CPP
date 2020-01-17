@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
     myFunction("Shihab");
     myFunction("Sajed");
     func();
+    func(25);
     return 0;
 }
 
