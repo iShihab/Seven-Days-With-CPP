@@ -12,7 +12,11 @@ int main(int argc, char const *argv[])
     cout<<myString1.length()<<endl;
 
     // Access string
-    cout<<myString2[2];
+    cout<<myString2[2]<<endl;
+
+    //Replace string character
+    myString2[0]='B'; //note single quote
+    cout<<myString2<<endl;
 
     return 0;
 
