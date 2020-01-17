@@ -22,12 +22,7 @@ int main(int argc, char const *argv[])
     string fullName;
     cout<<"Type fullname: ";
     getline(cin,fullName);
-    cout<<"Your full name is : "<<fullName;
-
-
-
-
-
+    cout<<"Your full name is : "<<fullName<<endl;
 
     return 0;
 
