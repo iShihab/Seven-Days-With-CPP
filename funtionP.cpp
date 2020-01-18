@@ -18,6 +18,11 @@ int sub(int x, int y)
     int res = x - y;
     return res;
 }
+int add(int x, int y)
+{
+    int r = x + y;
+    return (r);
+}
 
 int main(int argc, char const *argv[])
 {
@@ -31,6 +36,7 @@ int main(int argc, char const *argv[])
     cout << "The first result is : " << z << endl;
     cout << "The second result is : " << sub(a, b) << endl;
     cout << "The third result is : " << sub(30, 22) << endl;
+    cout << "Result : " << add(2, 3);
 
     return 0;
 }
